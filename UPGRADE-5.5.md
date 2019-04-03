@@ -2,6 +2,12 @@
 
 This changelog references changes done in Shopware 5.5 patch versions.
 
+## 5.5.9
+
+### Changes
+
+* Changed the usage of translation for shop pages in the side menu in mobile view
+
 ## 5.5.8
 
 [View all changes from v5.5.7...v5.5.8](https://github.com/shopware/shopware/compare/v5.5.7...v5.5.8)
