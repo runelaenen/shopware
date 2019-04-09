@@ -1034,6 +1034,7 @@ class LegacyStructConverter
         }
 
         $data['children'] = $this->convertShopPageStructList($shopPage->getChildren());
+        $data['parentID'] = $shopPage->getParentId();
 
         return $data;
     }
