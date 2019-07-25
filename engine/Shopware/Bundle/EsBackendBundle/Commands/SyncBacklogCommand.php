@@ -56,7 +56,7 @@ class SyncBacklogCommand extends ShopwareCommand
     {
         $connection = $this->container->get('dbal_connection');
 
-        $backlogs = $connection->fetchAll('SELECT * FROM s_es_backend_backlog ORDER BY id ASC LIMIT 20');
+        $backlogs = $connection->fetchAll('SELECT * FROM s_es_backend_backlog ORDER BY id ASC LIMIT 1000');
 
         if (empty($backlogs)) {
             $output->writeln('Backlog empty');
