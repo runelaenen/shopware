@@ -2667,7 +2667,7 @@ SQL;
                 }
             }
 
-            $getProducts[$key]['amount'] = $quantity * round($price, 2);
+            $getProducts[$key]['amount'] = round($quantity * $price, 2);
 
             //reset purchaseunit and save the original value in purchaseunitTemp
             if ($getProducts[$key]['purchaseunit'] > 0) {
